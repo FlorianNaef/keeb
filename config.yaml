@@ -12,6 +12,7 @@ points:
         bottom.padding: U
         home.padding: U
         top.padding: U
+        numbers.padding: U
     thumb:
       anchor:
         ref: matrix_index_bottom
