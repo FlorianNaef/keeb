@@ -1,18 +1,32 @@
 points:
+  key:
+    padding: cy
   zones:
     matrix:
+      rows:
+        bottom:
+        home: 
+        top: 
+        numbers:
       columns:
         outer:
+          key: 
+            spread: cx
         pinky:
-        ring.key.stagger: 0.66U
-        middle.key.stagger: 0.25U
-        index.key.stagger: -0.25U
-        inner.key.stagger: -0.15U
-      rows:
-        bottom.padding: U
-        home.padding: U
-        top.padding: U
-        numbers.padding: U
+          key: 
+            spread: cx
+        ring:
+          key:
+            stagger: 0.66U
+        middle:
+          key:
+            stagger: 0.25U
+        index:
+          key: 
+            stagger: -0.25U
+        inner:
+          key: 
+            stagger: -0.15U
     thumb:
       anchor:
         ref: matrix_index_bottom
@@ -31,7 +45,6 @@ points:
           key.splay: -20
           key.origin: [-0.5U,-0.5U]
           key.name: thumb_reacher
-
 pcbs:
   simple_split:
     footprints:
@@ -68,3 +81,10 @@ pcbs:
           P8: thumb_tucky
           P9: thumb_reachy
 
+outlines:
+  outerEdge: []
+
+  exports:
+    raw: 
+      name: outerEdge
+      what: outline
