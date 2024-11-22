@@ -1,11 +1,13 @@
 points:
   key:
-    padding: cy
+    autobind:
+    padding: 1U
+    spread: 1U
   zones:
     matrix:
       rows:
         bottom:
-        home: 
+        home:
         top: 
         numbers:
       columns:
@@ -80,11 +82,3 @@ pcbs:
           P6: matrix_inner_bottom
           P8: thumb_tucky
           P9: thumb_reachy
-
-outlines:
-  outerEdge: []
-
-  exports:
-    raw: 
-      name: outerEdge
-      what: outline
