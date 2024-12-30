@@ -1,0 +1,180 @@
+(footprint "Lumberg 1503 29 Klinken-Einbaubuchse"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c4ea1a5-c43d-4963-a147-2b57ceb71f18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Lumberg 1503 29 Klinken-Einbaubuchse"
+		(at 0 6.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb952d73-6db1-4ea0-967d-73c49a9c8c8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36da20c4-b74e-4abd-b1ea-71ea56ad99f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c33b75f7-2ff4-4c07-b46e-b91006bcf122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "954886cd-c06c-46a7-b3c0-42532ae7c785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.8 -4.8)
+		(end 8.8 4.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "624305bf-40a9-4150-83f0-ac1a3d93f056")
+	)
+	(fp_rect
+		(start -9 -5)
+		(end 9 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "a03a08e7-169d-4f1b-ad86-8de0de3e3cc6")
+	)
+	(fp_circle
+		(center -4.3 0)
+		(end -2.8 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2a9cb419-8736-46b0-a1c9-9cf0cf15d647")
+	)
+	(fp_circle
+		(center 2.7 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "50cf3bd1-039b-4b0a-af8d-bd46d51e1a13")
+	)
+	(fp_rect
+		(start -8.9 -4.9)
+		(end 8.9 4.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "da6b9814-cca3-456e-b61a-73b5ed27a849")
+	)
+	(fp_rect
+		(start -8.7 -4.7)
+		(end 8.7 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1c569db1-4bdc-45d9-a26e-36e1e6a5ad5a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee1b8b83-8a9f-4dcc-be96-5158db307b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.8 3.2)
+		(size 3 3)
+		(drill 2.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a20ae410-2c19-43d7-a1c8-64b79bc75343")
+	)
+	(pad "2" thru_hole circle
+		(at -2.8 -3.2)
+		(size 3 3)
+		(drill 2.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7725be6-1bb7-4e10-9dfa-fecf923e396c")
+	)
+	(pad "3" thru_hole rect
+		(at 5.2 -2.8)
+		(size 3 2.5)
+		(drill oval 2.25 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "637b7827-4b4d-46f0-a656-fc2b44564272")
+	)
+	(pad "4" thru_hole rect
+		(at 5.2 2.8)
+		(size 3 2.5)
+		(drill oval 2.25 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8f9c2dd-66a4-4399-8845-658d23bf8e62")
+	)
+)

@@ -5,6 +5,276 @@
 	(uuid "23a2e092-2786-4ba2-b42f-ef078778abf5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Lumberg_1503_29_Klinken-Einbaubuchse_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Lumberg_1503_29_Klinken-Einbaubuchse_1_0_1"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 3.81 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lumberg_1503_29_Klinken-Einbaubuchse_1_1_1"
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name "3c"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "4d"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Lumberg_1503_29_Klinken-Einbaubuchse_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -6.35 -5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Lumberg_1503_29_Klinken-Einbaubuchse_2_0_1"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 3.81 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Lumberg_1503_29_Klinken-Einbaubuchse_2_1_1"
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name "3c"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "4d"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ScottoKeebs:MCU_Raspberry_Pi_Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1706,6 +1976,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 68.58) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6c776d-0149-4438-8202-054a7b169b1d")
+	)
+	(wire
+		(pts
 			(xy 259.08 137.16) (xy 271.78 137.16)
 		)
 		(stroke
@@ -1866,6 +2146,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48830533-759e-4e28-8b90-be8713a4cea7")
+	)
+	(wire
+		(pts
 			(xy 57.15 55.88) (xy 57.15 63.5)
 		)
 		(stroke
@@ -1886,6 +2176,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2ec0ae-dd86-45db-8cc8-fb91bbf6e735")
+	)
+	(wire
+		(pts
 			(xy 24.13 137.16) (xy 36.83 137.16)
 		)
 		(stroke
@@ -1893,6 +2193,16 @@
 			(type default)
 		)
 		(uuid "500b5373-2d8c-4d82-94ef-dafa8bb16a2d")
+	)
+	(wire
+		(pts
+			(xy 193.04 135.89) (xy 190.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521ee577-b8ca-47a3-9073-c17714ddba13")
 	)
 	(wire
 		(pts
@@ -1923,6 +2233,16 @@
 			(type default)
 		)
 		(uuid "53dff668-1179-494d-9839-951b5681cb98")
+	)
+	(wire
+		(pts
+			(xy 193.04 66.04) (xy 193.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555ee44f-8813-4d4c-8ee5-56675150d09c")
 	)
 	(wire
 		(pts
@@ -1976,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 68.58) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67790111-142f-448e-aebe-2d441b36aa47")
+	)
+	(wire
+		(pts
 			(xy 215.9 104.14) (xy 215.9 124.46)
 		)
 		(stroke
@@ -2026,6 +2356,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 125.73) (xy 113.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1fc4f2-1da1-4b95-a88a-8d17e199bc13")
+	)
+	(wire
+		(pts
 			(xy 62.23 166.37) (xy 74.93 166.37)
 		)
 		(stroke
@@ -2066,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 66.04) (xy 193.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1b65b1-c5ae-40be-8291-9dab7fe1bef5")
+	)
+	(wire
+		(pts
 			(xy 69.85 83.82) (xy 69.85 104.14)
 		)
 		(stroke
@@ -2093,6 +2443,16 @@
 			(type default)
 		)
 		(uuid "7f78d82d-a9b9-4cca-b161-8c1af7357e25")
+	)
+	(wire
+		(pts
+			(xy 191.77 128.27) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8072d808-4d41-461a-ac98-0113c6f57074")
 	)
 	(wire
 		(pts
@@ -2336,6 +2696,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 125.73) (xy 113.03 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05af03d-551c-4bc8-baeb-5b67814b5f83")
+	)
+	(wire
+		(pts
 			(xy 208.28 96.52) (xy 220.98 96.52)
 		)
 		(stroke
@@ -2363,6 +2733,26 @@
 			(type default)
 		)
 		(uuid "c43b3227-a3e3-4c7d-adb4-9ec697cdf7af")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bda240-956d-4362-be62-de620f1b1b87")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca38ff40-4006-439f-80e9-90bf15c5fc92")
 	)
 	(wire
 		(pts
@@ -2436,6 +2826,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 135.89) (xy 113.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ec5569-560c-4aaa-a9a1-59a572724975")
+	)
+	(wire
+		(pts
 			(xy 233.68 96.52) (xy 246.38 96.52)
 		)
 		(stroke
@@ -2453,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "e16268e4-8e94-4c9e-80da-962f6c6f9e02")
+	)
+	(wire
+		(pts
+			(xy 190.5 128.27) (xy 191.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2313e74-e464-47bd-9d92-24c10706e82b")
 	)
 	(wire
 		(pts
@@ -2513,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "fbd2cf82-cd87-4a7f-a940-fa76bc167a0b")
+	)
+	(wire
+		(pts
+			(xy 111.76 124.46) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd725b3e-e38a-4f10-87ed-10fbe47fd167")
 	)
 	(global_label "Column 03"
 		(shape input)
@@ -5712,6 +6132,81 @@
 			(project "v2"
 				(path "/23a2e092-2786-4ba2-b42f-ef078778abf5"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Lumberg_1503_29_Klinken-Einbaubuchse_1")
+		(lib_id "flosLibrary:Lumberg_1503_29_Klinken-Einbaubuchse")
+		(at 119.38 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aada3b3-1bf6-4b76-97ad-ce714c2fb0ad")
+		(property "Reference" "U3"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "flosLibrary:Lumberg 1503 29 Klinken-Einbaubuchse"
+			(at 125.73 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fb687524-207e-44c9-a1ab-8d949cea8048")
+		)
+		(pin "2"
+			(uuid "4da281a5-d070-40cc-a3fe-813d8b668341")
+		)
+		(pin "1"
+			(uuid "aa786e7d-b5f1-46d5-a5e0-6f7eb6d36c41")
+		)
+		(pin "4"
+			(uuid "5c67aa0a-e430-4f39-97f8-721fbebe9ec3")
+		)
+		(instances
+			(project ""
+				(path "/23a2e092-2786-4ba2-b42f-ef078778abf5"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9572,6 +10067,81 @@
 			(project "v2"
 				(path "/23a2e092-2786-4ba2-b42f-ef078778abf5"
 					(reference "S51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Lumberg_1503_29_Klinken-Einbaubuchse_2")
+		(lib_id "flosLibrary:Lumberg_1503_29_Klinken-Einbaubuchse")
+		(at 184.15 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c3a555e-9c08-4c56-9c20-0763167237d3")
+		(property "Reference" "U5"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "flosLibrary:Lumberg 1503 29 Klinken-Einbaubuchse"
+			(at 177.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3febfb05-627b-4e46-a658-6612f6ae7a43")
+		)
+		(pin "2"
+			(uuid "7826a87b-2097-42f0-9732-561ab879a24a")
+		)
+		(pin "4"
+			(uuid "5767b127-9e09-43cb-a2c2-b54121fa9863")
+		)
+		(pin "1"
+			(uuid "74f00f83-b15d-46e9-b010-31b1a0141881")
+		)
+		(instances
+			(project ""
+				(path "/23a2e092-2786-4ba2-b42f-ef078778abf5"
+					(reference "U5")
 					(unit 1)
 				)
 			)
