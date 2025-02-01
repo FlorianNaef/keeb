@@ -14,13 +14,15 @@
     "features": {
         "bootmagic": false,
         "extrakey": true,
-        "mousekey": true
+        "mousekey": true,
+        "nkro": true
     },
     "split": {
         "enabled": true,
         "serial": {
             "pin": "GP1",
-            "driver": "vendor"
+            "driver": "vendor",
+            "half_duplex": true
         }
     },
     "matrix_pins": {
