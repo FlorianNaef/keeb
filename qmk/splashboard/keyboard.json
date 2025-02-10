@@ -21,8 +21,7 @@
         "enabled": true,
         "serial": {
             "pin": "GP1",
-            "driver": "vendor",
-            "half_duplex": true
+            "driver": "vendor"
         }
     },
     "matrix_pins": {
