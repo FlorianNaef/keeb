@@ -1,3 +1,12 @@
 #! /bin/bash
 
-cp -rf ../splashboard ~/Documents/IT/keeb/qmk
+destDir=~/Documents/IT/keeb/qmk
+
+cp -rf ../splashboard $destDir
+
+git -C $destDir add .
+
+read -p "Enter commit message: " commitmessage
+git -C $destDir commit -m "$commitmessage"
+
+git -c $destDir push
