@@ -9,4 +9,4 @@ git -C $destDir add .
 read -p "Enter commit message: " commitmessage
 git -C $destDir commit -m "$commitmessage"
 
-git -c $destDir push
+git -C $destDir push
